@@ -92,8 +92,8 @@
 }
 
 #s-wizard img {
-    height: 350px;
-    width: 350px;
+    height: 550px;
+    width: 550px;
     border: 2px solid black;
 }
 
@@ -170,8 +170,8 @@
 }
 
 .p-other img {
-    height: 350px;
-    width: 350px;
+    height: 550px;
+    width: 550px;
     border: 2px solid black;
 }
 
@@ -183,18 +183,20 @@
 #s-wizardShotty {
     text-align: center;
     font-style: italic;
+    font-weight: bold;
     padding-top: 10px;
     padding-bottom: 30px;
 }
 
 #s-chComic img {
-    height: 112px;
-    width: 350px;
+    height: 176px;
+    width: 550px;
 }
 
 #s-chComic {
     text-align: center;
     font-style: italic;
+    font-weight: bold;
     padding-top: 10px;
     padding-bottom: 30px;
 }
@@ -207,6 +209,7 @@
 #s-peterAnger {
     text-align: center;
     font-style: italic;
+    font-weight: bold;
     padding-top: 10px;
     padding-bottom: 30px;
 }
@@ -237,6 +240,13 @@
         padding: 10px; 
     }
 
+    /*--------------------- Home Page Media Query */
+    #s-wizard img {
+        height: 350px;
+        width: 350px;
+    }
+
+
     /*--------------------- Web App Media Query */
     .p-webApp .left {
         width: auto;
@@ -244,5 +254,16 @@
 
     .p-webApp .right {
         width: auto;
+    }
+
+    /*--------------------- Other Page Media Query */
+    .p-other img {
+        height: 350px;
+        width: 350px;
+    }
+
+    #s-chComic img {
+        height: 112px;
+        width: 350px;
     }
 }
